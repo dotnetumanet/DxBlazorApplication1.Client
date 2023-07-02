@@ -1,0 +1,93 @@
+﻿@page "/"
+
+@using Newtonsoft.Json.Linq; 
+@using System.Text.Json;
+@*@using DxBlazorApplication1.Server.Controllers;*@
+@inject NavigationManager Navigation;
+@using DxBlazorApplication1;
+@*@inject IHttpClientFactory _httpClientFactory;*@
+@inject HttpClient httpClient
+@inject IJSRuntime jsruntime
+@inject IConfiguration Configuration
+@using DxBlazorApplication1.Shared;
+@code{
+    string email { get; set; } = "killgerold@gmail.com";
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - A Pen by Shantanu Jana</title>
+    <!-- Design by foolishdeveloper.com -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+
+
+    <body>
+        <div class="popup" id="popup-1">
+            <div class="content">
+                <div class="close-btn" onclick="togglePopup()">
+                    ×
+                </div>
+
+                <h1>Sign In</h1>
+           @* <div class="input-field"><input placeholder="Name" class="validate" name="name"></div>*@
+                <div class="input-field"><input @bind="email"  placeholder="Email" class="validate" name="email" ></div>
+          @*  <form method="post" asp-page-handler="SendUser">  *@
+            <button @onclick="() => CallControllerMethod(new UserData {Email = email, Client = httpClient })" class="second-button">Sign in</button>
+                @*</form>*@
+
+
+            <button @onclick="() => CallControllerMethod(new UserData {Email = email, Client = httpClient })">Visit Page Now</button>
+        </div>
+
+        </div>
+       
+
+    </body>
+    <DxButton Id="submitInfoButton" runat ="server"  SubmitFormOnClick="true"></DxButton>
+</html>
+<button onclick="togglePopup()" class="first-button">Help</button>
+@code {
+
+
+    private async Task CallControllerMethod(UserData data)
+    {
+            string baseUrl = Configuration["controller"]/*"http://localhost:60094/api/JiraApi"*/;
+        //string controllerUrl = $"{baseUrl}?email={email}";
+        //HttpRequestMessage message = new HttpRequestMessage(HttpMethod.Get, controllerUrl);
+        //var response = await httpClient.SendAsync(message);
+        var response = await httpClient.GetAsync(baseUrl);
+        // Make an HTTP GET request to the controller's endpoint with parameters
+
+
+
+        // Check if the request was successful
+        if (response.IsSuccessStatusCode )
+        {
+            // Handle the successful response
+            // For example, you can retrieve the response content
+            string content = await response.Content.ReadAsStringAsync();
+            // Do something with the content
+            if (content == "success")
+            {
+                Navigation.NavigateTo("https://google.com");
+            }
+        }
+        else
+        {
+            // Handle the error response
+            // For example, you can retrieve the error message
+            string errorMessage = await response.Content.ReadAsStringAsync();
+            jsruntime.InvokeVoidAsync($"window.alert({errorMessage})");
+            // Display or handle the error message
+        }
+    }
+}
+           

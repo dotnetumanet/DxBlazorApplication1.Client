@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DxBlazorApplication1.Client.props" />
+</Project>

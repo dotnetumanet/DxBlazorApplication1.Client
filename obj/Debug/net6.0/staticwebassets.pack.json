@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\obj\\Debug\\net6.0\\build-gz\\uPMJG7OR.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\DxBlazorApplication1.Client.styles.css",
+      "PackagePath": "staticwebassets\\DxBlazorApplication1.Client.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\JS\\IndexUserScript.js",
+      "PackagePath": "staticwebassets\\JS\\IndexUserScript.js"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\browserNotSupported.html",
+      "PackagePath": "staticwebassets\\browserNotSupported.html"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\bootstrap\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\FONT-LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\FONT-LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\ICON-LICENSE.txt",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\ICON-LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\open.iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open.iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\images\\banner.png",
+      "PackagePath": "staticwebassets\\images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\images\\sad.svg",
+      "PackagePath": "staticwebassets\\images\\sad.svg"
+    },
+    {
+      "Id": "C:\\Users\\Alexander\\source\\repos\\ConfluenceAPITest\\DxBlazorApplication1\\DxBlazorApplication1.Client\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DxBlazorApplication1.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DxBlazorApplication1.Client.props",
+      "PackagePath": "build\\DxBlazorApplication1.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DxBlazorApplication1.Client.props",
+      "PackagePath": "buildMultiTargeting\\DxBlazorApplication1.Client.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DxBlazorApplication1.Client.props",
+      "PackagePath": "buildTransitive\\DxBlazorApplication1.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
